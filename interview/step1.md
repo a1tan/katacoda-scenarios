@@ -1,3 +1,3 @@
-## Kurulum
+## Deployment
 
-/opt/ dizini altındaki "redis-master-deployment.yaml" ve "redis-master-service.yaml" manifestlerini clustera deploy edin.
+Deploy "redis-master-deployment.yaml" and "redis-master-service.yaml" files in the /opt/ directory to kubernetes cluster.

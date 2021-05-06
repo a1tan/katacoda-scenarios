@@ -26,8 +26,8 @@
     },
     "assets": {
       "host01": [
-          {"file": "redis-master-service.yaml", "target": "/opt/"},
-		  {"file": "redis-master-deployment.yaml", "target": "/opt/"}
+          {"file": "redis-master-service.yaml", "target": "redis/"},
+		      {"file": "redis-master-deployment.yaml", "target": "redis/"}
       ]
     }
   },
