@@ -18,10 +18,10 @@ spec:
     spec:
       containers:
       - name: master
-        image: redis_  # or just image: redis
+        image: redis  # or just image: redis
         resources:
           requests:
             cpu: 100m
-            memory: 100Mi
+            memory: 5000Mi
         ports:
         - containerPort: 6379
