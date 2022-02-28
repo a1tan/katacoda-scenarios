@@ -4,7 +4,7 @@ Install the ArgoCD application:
 
 This will install ArgoCD controllers to argocd namespace.
 
-Wait until all resources up and running:
+Wait until all resources up and running(It can take some time):
 
 `kubectl get pods -n argocd -w`{{execute}}
 
