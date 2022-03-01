@@ -10,11 +10,21 @@ Copy and edit XXX with Github Repository Name then execute:
 
 `REPOSITORY=XXX`{{copy}}
 
+Run command:
+
 `export GIT_TOKEN=$PAT`{{execute}}
 
-This will install ArgoCD controllers and ApplicationSet controllers to argocd namespace.
+Run command:
 
-Wait until all resources up and running(It can take some time):
+`git config --global user.email "test"`{{execute}}
 
-`kubectl get pods -n argocd -w`{{execute}}
+Run command:
+
+`git config --global user.name "test"`{{execute}}
+
+Run Command:
+
+`export GIT_REPO=https://github.com/$GITHUB_ACCOUNT/$REPOSITORY`{{execute}}
+
+
 
