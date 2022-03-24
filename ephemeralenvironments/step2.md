@@ -1,6 +1,6 @@
 Install the ArgoCD application:
 
-`kubectl apply -k argoapplicationsets/managementstack/argocd`{{execute}}
+`kubectl apply -k argoapplicationsets/ephemeralenvironments/argocd`{{execute}}
 
 This will install ArgoCD controllers and ApplicationSet controllers to argocd namespace.
 
