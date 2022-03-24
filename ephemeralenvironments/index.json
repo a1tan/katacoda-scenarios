@@ -1,5 +1,5 @@
 {
-  "title": "ArgoCD Pull Request ApplicationSet",
+  "title": "Pull Request Ephemeral Environments",
   "description": "A simple demonstration of Ephemeral Environments for Pull Requests",
   "difficulty": "Beginner",
   "time": "5 minutes",
