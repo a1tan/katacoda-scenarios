@@ -1,3 +1,5 @@
-Copy and run the following command to install flux:
+Terraform init, plan and apply files:
 
-`flux bootstrap github --owner=<OWNER> --repository=<REPOSITORY>  --path=<DIRECTORY> --personal`{{copy}}
+`terraform init`{{execute}}
+`terraform plan -out=tfplan`{{execute}}
+`terraform apply tfplan`{{execute}}
