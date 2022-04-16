@@ -12,7 +12,7 @@ Port forward to VCluster:
 
 Click Ctrl + C, it will continue running at the background.
 
-<kbd>Ctrl</kbd>+<kbd>C</kbd>
+`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}}
 
 Port forward to sample app service:
 
@@ -20,7 +20,7 @@ Port forward to sample app service:
 
 Click Ctrl + C, it will continue running at the background.
 
-<kbd>Ctrl</kbd>+<kbd>C</kbd>
+`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}}
 
 Check the endpoint:
 

@@ -4,7 +4,7 @@ Port forward service for the namespace environment:
 
 Click Ctrl + C, it will continue running at the background.
 
-<kbd>Ctrl</kbd>+<kbd>C</kbd>
+`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}}
 
 Check the endpoint:
 
