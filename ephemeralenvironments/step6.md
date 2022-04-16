@@ -10,9 +10,17 @@ Port forward to VCluster:
 
 `kubectl port-forward svc/cluster-f-ephemeralpullrequest-3 -n cluster-f-ephemeralpullrequest-3-namespace 8081:443 &`{{execute}}
 
+Click Ctrl + C, it will continue running at the background.
+
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
+
 Port forward to sample app service:
 
 `kubectl port-forward svc/sampleapp-f-ephemeralpullrequest-3 -n sampleapp-f-ephemeralpullrequest-3-namespace --kubeconfig config.yaml 8082:80 &`{{execute}}
+
+Click Ctrl + C, it will continue running at the background.
+
+<kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 Check the endpoint:
 
