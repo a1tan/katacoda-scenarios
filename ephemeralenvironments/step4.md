@@ -4,3 +4,5 @@ Check if applications installed and synchronized:
 
 Check if namespaces applied:
 `kubectl get ns`{{execute}}
+
+Wait until all applications up and running(It can take some time, but it should be done in a few minutes): 
