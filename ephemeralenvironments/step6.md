@@ -8,19 +8,19 @@ Replace server address to be accessed by localhost:
 
 Port forward to VCluster:
 
-`kubectl port-forward svc/cluster-f-ephemeralpullrequest-3 -n cluster-f-ephemeralpullrequest-3-namespace 8081:443 &`{{execute}}
+`kubectl port-forward svc/cluster-f-ephemeralpullrequest-3 -n cluster-f-ephemeralpullrequest-3-namespace 8081:443 &`{{execute interrupt}}
 
-Click Ctrl + C, it will continue running at the background.
+<!-- Click Ctrl + C, it will continue running at the background.
 
-`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}}
+`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}} -->
 
 Port forward to sample app service:
 
-`kubectl port-forward svc/sampleapp-f-ephemeralpullrequest-3 -n sampleapp-f-ephemeralpullrequest-3-namespace --kubeconfig config.yaml 8082:80 &`{{execute}}
+`kubectl port-forward svc/sampleapp-f-ephemeralpullrequest-3 -n sampleapp-f-ephemeralpullrequest-3-namespace --kubeconfig config.yaml 8082:80 &`{{execute interrupt}}
 
-Click Ctrl + C, it will continue running at the background.
+<!-- Click Ctrl + C, it will continue running at the background.
 
-`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}}
+`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}} -->
 
 Check the endpoint:
 

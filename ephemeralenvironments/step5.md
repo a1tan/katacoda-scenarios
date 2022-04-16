@@ -1,10 +1,10 @@
 Port forward service for the namespace environment:
 
-`kubectl port-forward svc/sampleapp-ns-f-ephemeralpullrequest-3 -n sampleapp-ns-f-ephemeralpullrequest-3-namespace 8080:80 &`{{execute}}
+`kubectl port-forward svc/sampleapp-ns-f-ephemeralpullrequest-3 -n sampleapp-ns-f-ephemeralpullrequest-3-namespace 8080:80 &`{{execute interrupt}}
 
-Click Ctrl + C, it will continue running at the background.
+<!-- Click Ctrl + C, it will continue running at the background.
 
-`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}}
+`<kbd>Ctrl</kbd>+<kbd>C</kbd>`{{execute}} -->
 
 Check the endpoint:
 
